@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="leftbar">
+            <img src="images/logo.jpg" width="30%"/>
+        </div>
+        <div class="rightbar">
+            <ul>
+                <a href="index.html"><li style="margin-left: 25%;">Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="team.html"><li>Team</li></a>
+                <a href="work.html"><li>Work</li></a>
+                <a href="price.html"><li>Pricing</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="footer_section">
+        <div class="about">CONTACT</div>
+        <div class="features">Lets get in touch. Send us a message:</div>
+        <div class="contact">
+            <div class="address">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>New Delhi, India</p>
+            </div>
+            <div class="address">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>+91 0857397291</p>
+            </div>
+            <div class="address">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p>xyz@gmail.com</p>
+            </div>
+        </div>
+        <div class="form_page">
+            <form class="form_styling" onsubmit="event.preventDefault(); return sarveen()">
+
+                <div class="names">
+                    <input type="text" name="fullname" placeholder="Name" id="user_person" class="registration_input">
+                </div>
+                <div class="mailid">
+                    <input type="email" name="email" id="user_email" placeholder="User Email"class="registration_input">
+                </div>
+                <div class="subject">
+                    <input type="text" name="fullname" placeholder="Subject" id="user_person" class="registration_input">
+                </div>
+                <div class="message">
+                    <input type="text" name="fullname" placeholder="Message" id="user_person" class="registration_input">
+                </div>
+                <button type="submit" class="msg_btn"><i class="fa fa-paper-plane" aria-hidden="true">Send Message</i></button>
+            </form>
+        </div>  
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
